@@ -10,10 +10,27 @@ aside li {
 aside p {
   text-align: center;
 }
-
 h1,
 h2,
 h3,
 h4 {
   color: rgb(255, 69, 0, 0.8);
+}
+
+/* Style hyperlinks */
+
+a:visited,
+a:link {
+  color: rgb(255, 69, 0, 0.8);
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  color: black;
 }

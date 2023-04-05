@@ -4,3 +4,19 @@ h3,
 h4 {
   color: rgb(18, 137, 181, 0.75);
 }
+
+a:link,
+a:visited {
+  color: rgb(18, 137, 181, 0.75);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(5, 101, 136);
+  text-decoration: underline rgb(5, 101, 136);
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+}
