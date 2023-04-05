@@ -1,0 +1,19 @@
+aside {
+  background-color: rgb(231, 228, 228, 0.5);
+  border-top: 4px solid rgb(255, 69, 0, 0.8);
+}
+
+aside li {
+  list-style-type: none;
+}
+
+aside p {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(255, 69, 0, 0.8);
+}
