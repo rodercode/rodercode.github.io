@@ -28,7 +28,7 @@ a:link {
 a:hover {
   color: orangered;
   font-weight: bold;
-  text-decoration: underline orangered;
+  /* text-decoration: underline orangered; */
 }
 
 a:active {
