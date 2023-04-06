@@ -1,8 +1,57 @@
 /* text color, font family and background color */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(243, 240, 240, 0.75);
   font-family: sans-serif;
   color: rgb(99, 96, 96);
+  border-top: 10px solid rgb(255, 69, 0, 0.8);
+  margin-top: 0px;
+}
+
+.main-header {
+  background-color: #f1ebeb;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+
+.main-header-title {
+  text-transform: uppercase;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+.page-title {
+  margin-bottom: 30px;
+}
+
+.post-date {
+  margin-bottom: 10px;
+}
+
+.nav-item:visited,
+.nav-item:link {
+  font-size: 18px;
+  color: rgb(255, 69, 0);
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: orangered;
+  font-weight: bold;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
 }
 
 h1,
@@ -23,6 +72,18 @@ h2 {
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 p,
@@ -31,22 +92,14 @@ li {
 }
 
 /* style navbars */
-.nav-item:visited,
-.nav-item:link {
-  font-size: 18px;
-  color: rgb(255, 69, 0);
-  text-decoration: none;
-}
-
-.nav-item:hover {
-  color: orangered;
-  font-weight: bold;
-}
 
 /* Related Links */
 aside {
   background-color: rgb(231, 228, 228, 0.5);
   border-top: 4px solid rgb(255, 69, 0, 0.8);
+  border-bottom: 4px solid rgb(255, 69, 0, 0.8);
+  padding: 50px 0px;
+  margin-top: 60px;
 }
 
 aside li {

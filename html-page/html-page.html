@@ -7,57 +7,55 @@
     <title>HTML Page</title>
 
     <link rel="stylesheet" href="style.css" />
-
-    <!-- <link rel="stylesheet" href="html-page.css" /> -->
   </head>
 
   <body>
-    <header>
-      <div class="banner">
-        <h1>The Code Magazine</h1>
+    <header class="main-header" +>
+      <h1 class="main-header-title">&#128218; The Code Magazine</h1>
+      <nav>
+        <a class="nav-item" href="/index.html">Home</a>
+        <a class="nav-item" href="/css-page/css-page.html">CSS</a>
+      </nav>
+    </header>
 
-        <nav>
-          <a class="nav-item" href="/index.html">Home</a>
-          <a class="nav-item" href="/css-page/css-page.html">CSS</a>
-        </nav>
-      </div>
-
-      <h2>The Basic of HTML</h2>
+    <div class="post-header">
+      <h2 class="page-title">The Basic of HTML</h2>
 
       <img
+        class="author-avatar"
         src="img/cat-avatar.png"
         alt="picture of the the author"
         height="75"
       />
 
-      <p>
-        posted by <strong>Marcus Groth</strong> on Saturday, March 25st 2023
+      <p class="post-date">
+        posted by <strong>The Orange Cat</strong> on Saturday, March 25th 2023
       </p>
-    </header>
+
+      <img
+        class="post-header-img"
+        src="img/html-logo.png"
+        alt="html logo"
+        height="200"
+      />
+    </div>
 
     <section class="what-is-html-section">
       <h3>What is HTML?</h3>
 
-      <img src="img/html-logo.png" alt="html logo" height="200" />
-
       <ul>
-        <li class="first-li">
+        <li>
           HTML are used on the client side to structure and display content on a
         </li>
-        <br />
 
         <li class="second-li">
-          HTML consist of elements that display different type of contents
-          like:<br />
+          HTML consist of elements that display different type of contents like:
           images, videos, links, texts, headlines, etc.
         </li>
-        <br />
 
         <li class="third-li">
-          Web-browser like Google Chrome understand HTML code and render<br />
-          it as websites
-          <br />
-          <br />
+          Web-browser like Google Chrome understand HTML code and render it as
+          websites
         </li>
       </ul>
     </section>
@@ -72,17 +70,13 @@
           Open tag is the name of the <b>element</b> and the start of the
           <b>element</b>
         </li>
-        <br />
 
         <li>Content of the <b>element</b> here will all content be stored</li>
-        <br />
 
         <li>
           Close tag here will Element be close and no Element will appear after
           the Close Tag
         </li>
-        <br />
-        <br />
       </ul>
     </section>
 
@@ -97,12 +91,9 @@
 
       <p>
         HTML <b>attributes</b> are basically pieces of data which we can use to
-        describe <b>elements</b> <br />
-        <b>Alt attribute</b> is describe what the image is about for the browser
-        and blind people
+        describe <b>elements</b> <b>Alt attribute</b> is describe what the image
+        is about for the browser and blind people
       </p>
-      <br />
-      <br />
     </section>
 
     <section class="hyperlinks-section">
@@ -116,9 +107,8 @@
 
       <p>
         <b>Hyperlinks</b> are basically links that user that click on to get to
-        another HTML page. <br />
-        They are called anchor elements in HTML and there are two types of
-        <b>Hyperlinks</b>.
+        another HTML page. They are called anchor elements in HTML and there are
+        two types of <b>Hyperlinks</b>.
       </p>
 
       <ul>
@@ -132,8 +122,6 @@
           another page on your website
         </li>
       </ul>
-      <br />
-      <br />
     </section>
 
     <section class="semantic-section">
@@ -152,8 +140,8 @@
         </li>
         <li>
           Semantic Elements: are form, table, and article - Clearly defines its
-          content. <br />
-          The benefits of using Semantic elements over no Semantic elements are
+          content. The benefits of using Semantic elements over no Semantic
+          elements are
 
           <ul>
             <li>Easier to read your code</li>
@@ -162,8 +150,6 @@
           </ul>
         </li>
       </ul>
-      <br />
-      <br />
     </section>
 
     <section class="semantic-example-section">
