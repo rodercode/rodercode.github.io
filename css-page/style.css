@@ -47,6 +47,11 @@ li {
   font-weight: bold;
 }
 
+.picture-header {
+  color: rgb(99, 96, 96, 0.7);
+  font-style: italic;
+}
+
 /* copy right */
 .copy-right {
   font-size: 14px;
