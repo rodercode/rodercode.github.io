@@ -37,6 +37,7 @@ li {
 /* style navbars */
 .nav-item:link,
 .nav-item:visited {
+  font-size: 18px;
   color: rgb(18, 137, 181, 0.75);
   text-decoration: none;
 }
