@@ -1,3 +1,11 @@
+/* text color, font family and background color */
+body {
+  background-color: rgb(243, 240, 240, 0.75);
+  font-family: sans-serif;
+  color: rgb(99, 96, 96);
+  line-height: 1.4;
+}
+
 h1,
 h2,
 h3,
@@ -5,18 +13,40 @@ h4 {
   color: rgb(18, 137, 181, 0.75);
 }
 
-a:link,
-a:visited {
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p,
+li {
+  font-size: 18px;
+}
+
+/* style navbars */
+.nav-item:link,
+.nav-item:visited {
   color: rgb(18, 137, 181, 0.75);
   text-decoration: none;
 }
 
-a:hover {
+.nav-item:hover {
   color: rgb(5, 101, 136);
   font-weight: bold;
 }
 
-a:active {
-  color: black;
-  text-decoration: none;
+/* copy right */
+.copy-right {
+  font-size: 14px;
 }

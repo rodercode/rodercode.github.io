@@ -9,7 +9,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: rgb(255, 69, 0);
+  color: rgb(255, 69, 0, 0.8);
 }
 
 /* Font size */
@@ -31,25 +31,18 @@ li {
 }
 
 /* style navbars */
-
-a:visited,
-a:link {
+.nav-item:visited,
+.nav-item:link {
   color: rgb(255, 69, 0);
   text-decoration: none;
 }
 
-a:hover {
+.nav-item:hover {
   color: orangered;
   font-weight: bold;
-  /* text-decoration: underline orangered; */
-}
-
-a:active {
-  color: black;
 }
 
 /* Related Links */
-
 aside {
   background-color: rgb(231, 228, 228, 0.5);
   border-top: 4px solid rgb(255, 69, 0, 0.8);
@@ -61,4 +54,9 @@ aside li {
 
 aside p {
   text-align: center;
+}
+
+/* copy right */
+.copy-right {
+  font-size: 14px;
 }
