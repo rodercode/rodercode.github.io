@@ -1,27 +1,40 @@
-aside {
-  background-color: rgb(231, 228, 228, 0.5);
-  border-top: 4px solid rgb(255, 69, 0, 0.8);
+/* text color, font family and background color */
+body {
+  background-color: rgb(243, 240, 240, 0.75);
+  font-family: sans-serif;
+  color: rgb(99, 96, 96);
 }
 
-aside li {
-  list-style-type: none;
-}
-
-aside p {
-  text-align: center;
-}
 h1,
 h2,
 h3,
 h4 {
-  color: rgb(255, 69, 0, 0.8);
+  color: rgb(255, 69, 0);
 }
 
-/* Style hyperlinks */
+/* Font size */
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p,
+li {
+  font-size: 18px;
+}
+
+/* style navbars */
 
 a:visited,
 a:link {
-  color: rgb(255, 69, 0, 0.8);
+  color: rgb(255, 69, 0);
   text-decoration: none;
 }
 
@@ -33,4 +46,19 @@ a:hover {
 
 a:active {
   color: black;
+}
+
+/* Related Links */
+
+aside {
+  background-color: rgb(231, 228, 228, 0.5);
+  border-top: 4px solid rgb(255, 69, 0, 0.8);
+}
+
+aside li {
+  list-style-type: none;
+}
+
+aside p {
+  text-align: center;
 }
