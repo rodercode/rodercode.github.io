@@ -6,6 +6,7 @@
 }
 
 body {
+  border-top: 10px solid rgb(18, 137, 181, 0.75);
   background-color: rgb(243, 240, 240, 0.75);
   font-family: sans-serif;
   color: rgb(129, 122, 122);
@@ -17,13 +18,13 @@ body {
 }
 
 .main-header {
-  border-top: 10px solid rgb(18, 137, 181, 0.75);
   background-color: rgb(237, 230, 230);
   padding: 20px 40px 20px 40px;
   margin-bottom: 50px;
 }
 
 .main-header-title {
+  text-transform: uppercase;
   margin-bottom: 5px;
 }
 
@@ -36,7 +37,7 @@ body {
 }
 
 .auther-pic {
-  width: 12%;
+  width: 10%;
   height: auto;
   margin-bottom: 0px;
 }
@@ -113,6 +114,7 @@ p {
   font-size: 18px;
   color: rgb(18, 137, 181, 0.75);
   text-decoration: none;
+  margin-right: 30px;
 }
 
 .nav-item:hover {
