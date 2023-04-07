@@ -11,6 +11,11 @@ body {
   color: rgb(129, 122, 122);
 }
 
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .main-header {
   border-top: 10px solid rgb(18, 137, 181, 0.75);
   background-color: rgb(237, 230, 230);
@@ -30,6 +35,16 @@ body {
   margin-bottom: 10px;
 }
 
+.auther-pic {
+  width: 12%;
+  height: auto;
+  margin-bottom: 0px;
+}
+
+img {
+  margin-top: 10px;
+}
+
 h1,
 h2,
 h3,
@@ -47,7 +62,7 @@ h2 {
 
 h3 {
   font-size: 24px;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 
@@ -110,8 +125,24 @@ p {
   font-style: italic;
 }
 
+.box-model-list {
+  padding-left: 20px;
+}
+
+.box-model-img {
+  margin-top: 15px;
+  margin-left: 80px;
+  width: 50%;
+  height: auto;
+}
+
 .copy-right {
   font-size: 16px;
   padding: 20px;
   margin-bottom: 0px;
+}
+
+img {
+  width: 50%;
+  height: auto;
 }

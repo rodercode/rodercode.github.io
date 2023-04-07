@@ -12,10 +12,16 @@ body {
   margin-top: 0px;
 }
 
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #f1ebeb;
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 .main-header-title {
@@ -32,6 +38,11 @@ body {
 
 .post-date {
   margin-bottom: 10px;
+}
+
+.post-header-img {
+  width: 100%;
+  height: auto;
 }
 
 .nav-item:visited,
@@ -96,10 +107,10 @@ li {
 /* Related Links */
 aside {
   background-color: rgb(231, 228, 228, 0.5);
-  border-top: 4px solid rgb(255, 69, 0, 0.8);
-  border-bottom: 4px solid rgb(255, 69, 0, 0.8);
+  border: 4px solid rgb(255, 69, 0, 0.8);
   padding: 50px 0px;
   margin-top: 60px;
+  width: 500px;
 }
 
 aside li {

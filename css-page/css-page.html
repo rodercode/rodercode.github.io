@@ -11,146 +11,172 @@
     <title>CSS Page</title>
   </head>
   <body>
-    <header class="main-header">
-      <h1 class="main-header-title">&#128218; The Code Magazine</h1>
 
-      <nav>
-        <a class="nav-item" href="/index.html">Home</a>
-        <a class="nav-item" href="/html-page/html-page.html">HTML</a>
-        
-      </nav>
-    </header>
-    
-     
+    <div class="container">
 
-      <h2 class="page-title">The Basic of CSS</h2>
-
-      <img class="auther-pic" src="img/cat-avatar.png" alt="" height="75" />
-
-      <p class="post-date">
-        posted by <strong>Marcus Groth</strong> on Friday, March 31st 2023
-      </p>
-    
-
-    <section>
-      <img src="img/Css-logo.png" alt="css-logo" height="300" />
-
-      <h3>What is CSS</h3>
-
-      <ul>
-        <li>
-          CSS is standing for:
-          <strong>C</strong>ascading <strong>S</strong>tyle
-          <strong>S</strong>heets
-        </li>
-
-        <li>CSS describes the visual style of the content written in HTML</li>
-
-        <li>
-          CSS consists of countless properties that developers use to <br> format the
-          content: properties about font, text, spacing, layout, <br> etc. basically properties are used to style a element
-        </li>
-      </ul>
-    </section>
-
-    <section>
-      <h3>How we select and style elements</h3>
-
-      <ul>
-        <li>Element we select to style is called the selector</li>
-
-        <li>
-          Text-align, font-size and color are properties and we are assigne a
-          value to them to style them.
-        </li>
-
-        <li>Properties and value together are called style or declaration</li>
-
-        <li>The whole block within the selector is called declaration block</li>
-      </ul>
-
-      <img
-        src="img/select-css.png.png"
-        alt="how to select a element in css"
-        height="200"
-      />
-    </section>
-
-    <section>
-      <h3>The Three type of consist</h3>
-
-      <h4 class="CSS-type">Inline CSS</h4>
-      <ul class="list-three-type" id="inline-ul">
-        <li class="inline-css">Inline CSS is when you write css code inside a element</li>
-
-        <li class="inline-css">Inline CSS is usually very bad practice so it shouldn't be use</li>
-      </ul>
-
-      <h4 class="CSS-type">Internal CSS</h4>
-      <ul class="list-three-type">
-        <li>Internal CSS is using a style element to style html content</li>
-
-        <li>
-          Style element is located inside the head element not the body element
-        </li>
-
-        <li>
-          internal CSS is not optimal when dealing with huge amount of CSS code
-        </li>
-      </ul>
-
-      <h4 class="CSS-type">External CSS</h4>
-      <ul class="list-three-type">
-        <li>External CSS is when you working in a separate file a CSS file</li>
-
-        <li>we use a link element to connect html file to a css file</li>
-      </ul>
-
-      <img class="types-of-css-img"
-        src="img/three-type-css.png"
-        alt="three type of CSS"
-        width="300"
-      />
-    </section>
-
-    <section>
-      <h3>Id selector</h3>
+      <header class="main-header">
+        <h1 class="main-header-title">&#128218; The Code Magazine</h1>
+  
+        <nav>
+          <a class="nav-item" href="/index.html">Home</a>
+          <a class="nav-item" href="/html-page/html-page.html">HTML</a>
+          
+        </nav>
+      </header>
       
-      <p>This is an id selector we can add an id to our html element and then use #id-name <br> to only style that specific element. but we can only assign one element to an id and id selector doesn't use as often as class selector cause class selector is well suited for real time projects where we might want to use same identifier for multiple elements.</id></p>
+       
+  
+        <h2 class="page-title">The Basic of CSS</h2>
+  
+        <img class="auther-pic" src="img/cat-avatar.png" alt="auther selfie"/>
+  
+        <p class="post-date">
+          posted by <strong>Marcus Groth</strong> on Friday, March 31st 2023
+        </p>
+      
+  
+      <section>
+        <img src="img/Css-logo.png" alt="css-logo"/>
+  
+        <h3>What is CSS</h3>
+  
+        <ul>
+          <li>
+            CSS is standing for:
+            <strong>C</strong>ascading <strong>S</strong>tyle
+            <strong>S</strong>heets
+          </li>
+  
+          <li>CSS describes the visual style of the content written in HTML</li>
+  
+          <li>
+            CSS consists of countless properties that developers use to <br> format the
+            content: properties about font, text, spacing, layout, <br> etc. basically properties are used to style a element
+          </li>
+        </ul>
+      </section>
+  
+      <section>
+        <h3>How we select and style elements</h3>
+  
+        <ul>
+          <li>Element we select to style is called the selector</li>
+  
+          <li>
+            Text-align, font-size and color are properties and we are assigne a
+            value to them to style them.
+          </li>
+  
+          <li>Properties and value together are called style or declaration</li>
+  
+          <li>The whole block within the selector is called declaration block</li>
+        </ul>
+  
+        <img
+          src="img/select-css.png.png"
+          alt="how to select a element in css"
+        />
+      </section>
+  
+      <section>
+        <h3>The Three type of consist</h3>
+  
+        <h4 class="CSS-type">Inline CSS</h4>
+        <ul class="list-three-type" id="inline-ul">
+          <li class="inline-css">Inline CSS is when you write css code inside a element</li>
+  
+          <li class="inline-css">Inline CSS is usually very bad practice so it shouldn't be use</li>
+        </ul>
+  
+        <h4 class="CSS-type">Internal CSS</h4>
+        <ul class="list-three-type">
+          <li>Internal CSS is using a style element to style html content</li>
+  
+          <li>
+            Style element is located inside the head element not the body element
+          </li>
+  
+          <li>
+            internal CSS is not optimal when dealing with huge amount of CSS code
+          </li>
+        </ul>
+  
+        <h4 class="CSS-type">External CSS</h4>
+        <ul class="list-three-type">
+          <li>External CSS is when you working in a separate file a CSS file</li>
+  
+          <li>we use a link element to connect html file to a css file</li>
+        </ul>
+  
+        <img class="types-of-css-img"
+          src="img/three-type-css.png"
+          alt="three type of CSS"
+        />
+      </section>
+  
+      <section>
+        <h3>Id selector</h3>
+        
+        <p>This is an id selector we can add an id to our html element and then use #id-name <br> to only style that specific element. but we can only assign one element to an id and id selector doesn't use as often as class selector cause class selector is well suited for real time projects where we might want to use same identifier for multiple elements.</id></p>
+  
+        <img src="img/id-selector.png" alt="screenshot of id selector" />
+      </section>
+  
+      <section>
+        <h3>Class selector</h3>
+  
+        <p>Class selector is similar to how id selector works only difference is that we can select <br> multiple element and style them</p>
+  
+        <img src="img/class-selector.png" alt="screenshot of class selector script">
+      </section>
+  
+      <section>
+        <h3>Pseudo classes</h3>
+        <p>Pseudo-classe are used to add styles to element in different state. <br> for example nav element can have four different state</p>
+        <ul>
+          <li>linked(display hyperlink)</li>
+          <li>visited(hyperlink you already visited)</li>
+          <li>
+            hover(when you hover your mouse over a link)</li>
+          <li>active(while click on a link)</li>
+        </ul>
+  
+        <p>You can see it as an whole animation taking place from you see <br> a link until you have clicked on it.</p>
+  
+      
+        <img src="img/pseudo-classes.png" alt="CSS code pseudo classes">
+      </section>
 
-      <img src="img/id-selector.png" alt="screenshot of id selector" />
-    </section>
+      <section>
 
-    <section>
-      <h3>Class selector</h3>
+        <h3>Box Model</h3>
+        <p>Box Model consists of five areas</p>
+        <ol class="box-model-list">
+          <li>Content: text, img, link, etc.</li>
+          <li>Border: A line around the element. but still inside the element</li>
+          <li>Padding: whitespace between content adn the border</li>
+          <li>Margin: the white space between elements</li>
+          <li>Fill area: the area where background color will be fillared</li>
+        </ol>
 
-      <p>Class selector is similar to how id selector works only difference is that we can select <br> multiple element and style them</p>
+        <img class="box-model-img" src="img/box_model.png" alt="educational picture of The Box Model">
+      </section>
 
-      <img src="img/class-selector.png" alt="screenshot of class selector script">
-    </section>
+      <section>
+        <h3>Adding Dimension</h3>
+        <p>Config size of images should only be done in CSS not HTML and use % unit instead of px to make the webpage responsive for other devices such as mobile phone, tablet, laptop, etc.</p>
 
-    <section>
-      <h3>Pseudo classes</h3>
-      <p>Pseudo-classe are used to add styles to element in different state. <br> for example nav element can have four different state</p>
-      <ul>
-        <li>linked(display hyperlink)</li>
-        <li>visited(hyperlink you already visited)</li>
-        <li>
-          hover(when you hover your mouse over a link)</li>
-        <li>active(while click on a link)</li>
-      </ul>
+        <p>We can also change container's width and height in CSS if we so wish.</p>
 
-      <p>You can see it as an whole animation taking place from you see <br> a link until you have clicked on it.</p>
-
-    
-      <img src="img/pseudo-classes.png" alt="CSS code pseudo classes" height="150px">
-    </section>
-
-    
-    
-    <footer>
-      <p class="copy-right" id="copy-right">Copyright &copy; 2023 by The Code Magazine</p> 
-    </footer>
-    
+        <p>We can Also center all element within container.</p>
+      </section>
+  
+      
+      
+      <footer>
+        <p class="copy-right" id="copy-right">Copyright &copy; 2023 by The Code Magazine</p> 
+      </footer>
+      
+    </div>
   </body>
 </html>
