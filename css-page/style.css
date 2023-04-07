@@ -10,10 +10,11 @@ body {
   background-color: rgb(243, 240, 240, 0.75);
   font-family: sans-serif;
   color: rgb(129, 122, 122);
+  position: relative;
 }
 
 .container {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -136,6 +137,15 @@ p {
   margin-left: 80px;
   width: 50%;
   height: auto;
+}
+
+.like-btn {
+  cursor: pointer;
+  font-size: 22px;
+  padding: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
 
 .copy-right {
