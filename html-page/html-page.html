@@ -11,9 +11,9 @@
 
   <body>
     <div class="container">
-      <header class="main-header">
+      <header class="main-header clearfix">
         <h1 class="main-header-title">&#128218; The Code Magazine</h1>
-        <nav>
+        <nav class="nav-bars">
           <a class="nav-item" href="/index.html">Home</a>
           <a class="nav-item" href="/css-page/css-page.html">CSS</a>
           <a class="nav-item" href="#">Java Script</a>
@@ -22,171 +22,180 @@
       </header>
 
       <div class="post-header">
-        <h2 class="page-title">The Basic of HTML</h2>
+        <main>
+          <section>
+            <h2 class="page-title">The Basic Language of the Web: HTML</h2>
 
-        <img
-          class="author-avatar"
-          src="img/cat-avatar.png"
-          alt="picture of the the author"
-          height="75"
-        />
+            <div class="author">
+              <img
+                class="author-pic"
+                src="img/cat-avatar.png"
+                alt="picture of the the author"
+              />
 
-        <p class="post-date">
-          posted by <strong>The Orange Cat</strong> on Saturday, March 25th 2023
-        </p>
+              <p class="author-post">
+                By
+                <a class="profile-link" href="/orange-cat-page/index.html"
+                  >The Orange Cat</a
+                >
+              </p>
+              <p class="post-date">📄 Posted on March 25th 2023</p>
+            </div>
+          </section>
 
-        <img class="post-header-img" src="img/html-logo.png" alt="html logo" />
-      </div>
-
-      <section class="what-is-html-section">
-        <h3>What is HTML?</h3>
-
-        <ul>
-          <li>
-            HTML are used on the client side to structure and display content on
-            a
-          </li>
-
-          <li class="second-li">
-            HTML consist of elements that display different type of contents
-            like: images, videos, links, texts, headlines, etc.
-          </li>
-
-          <li class="third-li">
-            Web-browser like Google Chrome understand HTML code and render it as
-            websites
-          </li>
-        </ul>
-      </section>
-
-      <section class="element-section">
-        <h3>Elements</h3>
-
-        <img
-          src="img/attributes.png"
-          alt="picture of html element"
-          width="400"
-        />
-
-        <ul>
-          <li class="first-li">
-            Open tag is the name of the <b>element</b> and the start of the
-            <b>element</b>
-          </li>
-
-          <li>Content of the <b>element</b> here will all content be stored</li>
-
-          <li>
-            Close tag here will Element be close and no Element will appear
-            after the Close Tag
-          </li>
-        </ul>
-      </section>
-
-      <section class="boiler-plate-section">
-        <h3>Boiler Plate Code</h3>
-
-        <img
-          src="img/boilerplate.png"
-          alt="html boilerplate code show on a screen"
-          width="600"
-        />
-
-        <p>
-          HTML <b>attributes</b> are basically pieces of data which we can use
-          to describe <b>elements</b> <b>Alt attribute</b> is describe what the
-          image is about for the browser and blind people
-        </p>
-      </section>
-
-      <section class="hyperlinks-section">
-        <h3>Hyperlinks</h3>
-
-        <img
-          src="img/hyper-links.png"
-          alt="educational image how hyperlinks works"
-          width="250"
-        />
-
-        <p>
-          <b>Hyperlinks</b> are basically links that user that click on to get
-          to another HTML page. They are called anchor elements in HTML and
-          there are two types of <b>Hyperlinks</b>.
-        </p>
-
-        <ul>
-          <li class="first-li">
-            <b>External links</b> are hyperlink that points to any domain
-          </li>
-          <br />
-
-          <li>
-            <b>Internal links</b> are any links from one page on your website to
-            another page on your website
-          </li>
-        </ul>
-      </section>
-
-      <section class="semantic-section">
-        <div></div>
-        <h3>What are Semantic Elements?</h3>
-
-        <p>
-          A Semantic Element clearly describes its meaning to both the browser
-          and the developer.
-        </p>
-
-        <ul class="semantic-list">
-          <li class="first-li">
-            Non-Semantic elements: are div and span - Tells nothing about its
-            content.
-          </li>
-          <li>
-            Semantic Elements: are form, table, and article - Clearly defines
-            its content. The benefits of using Semantic elements over no
-            Semantic elements are
+          <section class="what-is-html-section">
+            <h3>What is HTML?</h3>
 
             <ul>
-              <li>Easier to read your code</li>
-              <li>Better fdor search result</li>
-              <li>Better for screen readers</li>
+              <li>
+                HTML are used on the client side to structure and display
+                content on a
+              </li>
+
+              <li class="second-li">
+                HTML consist of elements that display different type of contents
+                like: images, videos, links, texts, headlines, etc.
+              </li>
+
+              <li class="third-li">
+                Web-browser like Google Chrome understand HTML code and render
+                it as websites
+              </li>
             </ul>
-          </li>
-        </ul>
-      </section>
+          </section>
 
-      <section class="semantic-example-section">
-        <h3>Here are some common used Semantic Elements</h3>
+          <section class="element-section">
+            <h3>Elements</h3>
 
-        <img src="img/semantic-elements.png" alt="" height="300" />
-      </section>
+            <img
+              src="img/attributes.png"
+              alt="picture of html element"
+              width="400"
+            />
+
+            <ul>
+              <li class="first-li">
+                Open tag is the name of the <b>element</b> and the start of the
+                <b>element</b>
+              </li>
+
+              <li>
+                Content of the <b>element</b> here will all content be stored
+              </li>
+
+              <li>
+                Close tag here will Element be close and no Element will appear
+                after the Close Tag
+              </li>
+            </ul>
+          </section>
+
+          <section class="boiler-plate-section">
+            <h3>Boiler Plate Code</h3>
+
+            <img
+              src="img/boilerplate.png"
+              alt="html boilerplate code show on a screen"
+              width="600"
+            />
+
+            <p>
+              HTML <b>attributes</b> are basically pieces of data which we can
+              use to describe <b>elements</b> <b>Alt attribute</b> is describe
+              what the image is about for the browser and blind people
+            </p>
+          </section>
+
+          <section class="hyperlinks-section">
+            <h3>Hyperlinks</h3>
+
+            <img
+              src="img/hyper-links.png"
+              alt="educational image how hyperlinks works"
+              width="250"
+            />
+
+            <p>
+              <b>Hyperlinks</b> are basically links that user that click on to
+              get to another HTML page. They are called anchor elements in HTML
+              and there are two types of <b>Hyperlinks</b>.
+            </p>
+
+            <ul>
+              <li class="first-li">
+                <b>External links</b> are hyperlink that points to any domain
+              </li>
+              <br />
+
+              <li>
+                <b>Internal links</b> are any links from one page on your
+                website to another page on your website
+              </li>
+            </ul>
+          </section>
+
+          <section class="semantic-section">
+            <div></div>
+            <h3>What are Semantic Elements?</h3>
+
+            <p>
+              A Semantic Element clearly describes its meaning to both the
+              browser and the developer.
+            </p>
+
+            <ul class="semantic-list">
+              <li class="first-li">
+                Non-Semantic elements: are div and span - Tells nothing about
+                its content.
+              </li>
+              <li>
+                Semantic Elements: are form, table, and article - Clearly
+                defines its content. The benefits of using Semantic elements
+                over no Semantic elements are
+
+                <ul>
+                  <li>Easier to read your code</li>
+                  <li>Better fdor search result</li>
+                  <li>Better for screen readers</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+
+          <section class="semantic-example-section">
+            <h3>Here are some common used Semantic Elements</h3>
+
+            <img src="img/semantic-elements.png" alt="" height="300" />
+          </section>
+        </main>
+      </div>
 
       <aside>
-        <p>Useful Websites to learn HTML</p>
-        <ul class="first-li">
-          <li>
-            <a href="https://www.codecademy.com/learn/learn-html"
-              ><img
-                src="https://i.pcmag.com/imagery/reviews/05XBKmNFYeHCMIn726Nohqb-10..v1627594235.png"
-                alt="Codecademy logo"
-                height="50px"
-            /></a>
+        <p>Useful Websites To Learn Web Development</p>
+        <ul class="list-related-link">
+          <li class="item">
+            <img
+              src="img/html.png"
+              alt="Computer that says HTML"
+              height="75px"
+            />
+            <a
+              class="related-link"
+              href="https://www.codecademy.com/learn/learn-html"
+              >Learn HTML</a
+            >
           </li>
           <li>
-            <a href="https://www.w3schools.com/html/"
-              ><img
-                src="https://yt3.googleusercontent.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s900-c-k-c0x00ffffff-no-rj"
-                alt="W3Schools logo"
-                height="50px"
-            /></a>
+            <img src="img/css.png" alt="" height="75px" />
+            <a class="related-link" href="https://www.w3schools.com/css/"
+              >Learn CSS</a
+            >
           </li>
           <li>
-            <a href="https://www.learn-html.org/"
-              ><img
-                src="https://www.learn-html.org/static/img/logos/learn-html.org.png"
-                alt="learn-html.org"
-                height="50px"
-            /></a>
+            <img src="img/javascript.png" alt="" height="75px" />
+            <a class="related-link" href="https://learnjavascript.online/"
+              >Learn Javascript</a
+            >
           </li>
         </ul>
       </aside>

@@ -8,26 +8,75 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1 class="main-header-title">📚 The Code Magazine</h1>
+    <div class="main-container">
+      <header class="main-header">
+        <h1 class="main-header-title">📚 The Code Magazine</h1>
+        <nav>
+          <a class="nav-item" href="/index.html">Home</a>
+          <a class="nav-item" href="/html-page/html-page.html">HTML</a>
+          <a class="nav-item" href="/css-page/css-page.html">CSS</a>
+        </nav>
+      </header>
 
-      <nav>
-        <a href="/index.html">Home</a>
-        <a href="/html-page/html-page.html">HTML</a>
-        <a href="/css-page/css-page.html">CSS</a>
-      </nav>
+      <h2 class="page-title">Learn Layout with CSS</h2>
 
-      <h2 class="page-title">Three ways to build layouts in CSS</h2>
-      <img src="img/cat-avatar.png" alt="author pic" />
-      <p>📄 Posted April 7, 2023 by: The Orange Cat</p>
-    </header>
+      <div class="author-container">
+        <img class="author-pic" src="img/cat-avatar.png" alt="author pic" />
+        <p class="post-date">📄 Posted April 7, 2023 by: The Orange Cat</p>
+      </div>
 
-    <main>
-      <section></section>
-    </main>
+      <section class="layout-section">
+        <h3>What is Layouts?</h3>
 
-    <footer>
-      <p>Copyright &copy; 2023 by The Code Magazine</p>
-    </footer>
+        <p>
+          Layout is the way text, images and other content is placed and
+          arranged on webpage.
+        </p>
+
+        <h4>There are three different layout methods.</h4>
+
+        <ol>
+          <li>
+            Float Layout: The old way of building layouts of all sizes, using
+            the float CSS property float sill is being used but getting outdated
+            fast.
+          </li>
+          <li>
+            Flexbox: Modern way of laying out elements in a 1D row without using
+            floats, perfect for component layouts.
+          </li>
+          <li>
+            CSS grid: For laying out element in a fully-fledged 2D grid. perfect
+            for page layouts and complex components
+          </li>
+        </ol>
+      </section>
+
+      <section>
+        <h3>Float Layour</h3>
+        <p>
+          Float element are removed from the normal flow: "out of flow" similar
+          to what happend when a element change from relative position to
+          absolute position
+        </p>
+
+        <p>
+          But Text and inline elements will still wrap around the floated
+          element
+        </p>
+
+        <p>
+          The container will not adjust its height to the float elements and
+          will collapsed(height = 0) if all elements are floats within the
+          container.
+        </p>
+
+        <p></p>
+      </section>
+
+      <footer>
+        <p>Copyright &copy; 2023 by The Code Magazine</p>
+      </footer>
+    </div>
   </body>
 </html>
